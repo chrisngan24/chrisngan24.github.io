@@ -1,7 +1,6 @@
 /**
   * Base Colors
-  */
-/**
+  *//**
   * Standard Colors
   */
 /**
@@ -98,6 +97,9 @@
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
+}
+#portfolio_content h1 {
+  font-size: 34.5px;
 }
 .footer {
   margin-top: 5em;
