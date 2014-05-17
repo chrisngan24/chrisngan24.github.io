@@ -15,6 +15,11 @@
     <li class="span4"><?php include('portfolio/myophysio.php'); ?></li> 
     <li class="span4"><?php include('portfolio/manuscripter.php'); ?></li> 
   </ul>
+  <ul class="thumbnails">
+    <li class="span4"><?php include('portfolio/talklight.php'); ?></li> 
+    <li class="span4"><?php include('portfolio/smartwatch.php'); ?></li> 
+    <li class="span4"><?php include('portfolio/website.php'); ?></li> 
+  </ul>
   <hr/>
   <div class="row-fluid">
     <div class="offset2 span8">

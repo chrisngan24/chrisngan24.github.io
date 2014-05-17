@@ -12,7 +12,7 @@
     </div>-->
     <div class="offset2 span8">
       <img src="images/headshot.png" class="headshot img-circle"></img>
-      <p class="">Hi there!  I am a student at the University of Waterloo studying System Design Engineering.  As an engineering student, I am excited to be learning a diverse variety of skills, from software development to solution architecture.  My ultimate goal is to be developing solutions for problems that stretch beyond the scope of a traditional engineer and to help make the world a better place.  I want to work with issues such as poverty, food security and public healthcare - but with a systematic and technical perspective.  So until that dream is completely achieved, I'll keep on exploring the world!</p>
+      <p class="">Hi there!  I am a student at the University of Waterloo studying System Design Engineering.  As an engineering student, I am excited to be learning a diverse variety of skills, from software development to solution architecture.  My ultimate goal is to be developing solutions for problems that stretch beyond the scope of a traditional engineer and to help make the world a better place.  I want to work with issues such as poverty, food security and public healthcare - but with a systematic and technical perspective. I love to meet new people and explore new things, so feel free to <a href="mailto:chris.ngan24@gmail.com">get in touch!</a> 
     </div> 
   </div>
 <!--

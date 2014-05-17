@@ -5,9 +5,8 @@
       <img src="images/manuscripter.png" class="img-polaroid">
     </div>
     <div class="back">
-      <p>A web app that acts as a tool which provides biblical text without any annotations to provide plain, old Scripture.  <a class="text-left" href="http://manuscripter.aws.af.cm/index.html">Try it out!</a>
-</p>
-            <a href="https://github.com/chrisngan24/manuscripter">Github</a>
+      <p>A web app that acts as a tool which provides biblical text without any annotations to provide plain, old Scripture.  <a target="_blank" class="text-left" href="http://manuscripter.aws.af.cm/index.html">Try it out!</a></p>
+      <a href="https://github.com/chrisngan24/manuscripter" target="_blank">Github</a>
     </div>
   </div>
 </div>
