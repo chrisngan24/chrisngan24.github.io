@@ -1,0 +1,172 @@
+/**
+  * Base Colors
+  *//**
+  * Standard Colors
+  */
+/**
+  * Urls
+  */
+body {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: black;
+  background-image: url('../images/retina_wood.png');
+  background-attachment: fixed;
+}
+.title-panel {
+  width: 100%;
+  border-bottom: 2px #477f99;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.title-panel h1 {
+  margin: 0em;
+  padding: 0.2em;
+}
+.title-panel ul {
+  text-align: center;
+}
+.title-panel ul li {
+  display: inline;
+}
+.title-panel ul a {
+  border-radius: 0px;
+}
+#about_content .headshot {
+  margin: 1em;
+  height: 10em;
+  float: left;
+}
+#about_content p {
+  text-align: justify;
+}
+/* entire container, keeps perspective */
+.thumbnail {
+  text-align: center;
+  box-shadow: none;
+  border: none;
+}
+.thumbnail p {
+  padding-top: 2em;
+}
+.thumbnail img {
+  height: 20em;
+  width: 100em;
+}
+@media all and (max-width: 972px) {
+  .thumbnail img {
+    width: auto;
+  }
+}
+/* flip the pane when hovered */
+.thumbnail:hover .flipper,
+.thumbnail.hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+}
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+}
+.back {
+  position: absolute;
+}
+/* hide back of pane during swap */
+.front,
+.back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+}
+#portfolio_content h1 {
+  font-size: 34.5px;
+}
+.footer {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+.footer .img-link {
+  height: 5em;
+  padding: 1em;
+}
+.center {
+  text-align: center;
+}
+p {
+  font-size: 1.3em;
+}
+.small {
+  font-size: 1.2em;
+}
+.nav-centered-pills {
+  text-alignt: center;
+}
+.nav-centered-pills ul.nav-pills {
+  display: inline-block;
+}
+.nav-centered-pills li {
+  display: inline;
+}
+.nav-centered-pills a {
+  float: left;
+}
+.hidden {
+  display: none;
+}
+.quote {
+  margin: 0em 4em 2em 4em;
+}
+.center-list {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.center-list h4 {
+  margin: 0px;
+}
+hr {
+  border-top-color: #333333;
+}
+.flipper-small {
+  height: 100px;
+}
+a {
+  color: #477f99;
+}
+.nav-pills > .active > a {
+  background-color: #477f99;
+}
+.nav-pills > .active > a:focus {
+  background-color: #477f99;
+}
+.nav-pills > .active > a:hover {
+  background-color: #477f99;
+}

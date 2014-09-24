@@ -1,0 +1,75 @@
+
+@import "variable.less";
+body{
+  //font-family: 'Open Sans', sans-serif;  
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: black;
+    //font: 13px/14px Arial,sans-serif;
+    background-image:url(@backgroundImage);
+  background-attachment:fixed;
+}
+@import "title.less";
+@import "home.less";
+@import "flipper.less";
+@import "portfolio.less";
+@import "footer.less";
+.center{
+    text-align: center;
+}
+p{
+  font-size:1.3em;
+}
+
+.small{
+  font-size:1.2em;
+}
+.nav-centered-pills{
+    text-alignt:center;
+    ul.nav-pills{
+        display:inline-block;
+    }
+    li{display:inline;}
+    a{float:left}
+}
+
+.hidden{
+  display:none;
+}
+
+.quote{
+  margin: 0em 4em 2em 4em;
+}
+
+
+.center-list{
+  list-style-type:none;
+  text-align:center;
+  margin-right:0px;
+  margin-left:0px;
+  h4{
+    margin:0px;
+  }
+}
+
+hr{
+  border-top-color:@borderColor;
+}
+
+.flipper-small{
+  height:100px;
+}
+
+
+a{
+  color: @blue;
+}
+.nav-pills>.active>a{
+  background-color: @blue;
+}
+.nav-pills>.active>a:focus{
+    background-color: @blue;
+
+}
+.nav-pills>.active>a:hover{
+  background-color: @blue;
+}
