@@ -1,0 +1,22 @@
+<div id="blog_content" class="content hidden">
+  <div class="row-fluid">
+    <div class="offset2 span8">
+      <h3 class="center">I believe it's important to channel passion into words so that words will one day lead to action. I hope to write thoughts on my streams of passion, whether it be technology, food or things of even greater importance. Welcome to my canvas of ideas. </h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row-fluid">
+    <ul class="thumbnails">
+      {% for post in site.posts %}
+      <li class="span4">
+        <div class="">
+          <a class="thumbnail" href="{{ post.url }}">
+            <h4>{{ post.title }}</h4>{{ post.originalPostDate }}
+            <p>{{ post.excerpt }}</p>
+          </a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
