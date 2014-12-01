@@ -1,17 +1,18 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Christopher Ngan</title>
+    <title>Chris Ngan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
-    <link href="libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="/libs/bootstrap/css/bootstrap.min.css">
+
+    <link href="/libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class="container">
-  <div class="title-panel">
     <div class="">
+  <div class="title-panel">
+    <div class="container">
   <div class="row-fluid">
     <div class="span12">
         <h1 class="">Chris Ngan</h1>
@@ -26,10 +27,10 @@
     <div class="span12">
       <div class="nav-centered-pills">
         <ul class="nav nav-pills">
+          <!--<li id="blog_link"><a href="#blog">Blog</a></li>-->
           <li id="portfolio_link" ><a href="#portfolio">Portfolio</a></li>
-          <li id="about_link"><a id="about_link" href="#about">About</a></li>
-            <li><a target="_blank" href="pdfs/resume.pdf">R&#233sum&#233</a></li>
-<!--                  <li id="experience_link" ><a  href="#experience">Experience</a></li>-->
+          <li id="about_link"><a href="#about">About</a></li>
+          <li><a target="_blank" href="pdfs/resume.pdf">R&#233sum&#233</a></li>
         </ul>
       </div>
     </div>
@@ -37,12 +38,14 @@
 </div>
 
   </div>
-  <div class="container well">
+  <div class="well container" id="home-well">
     <div id="about_content" class="content hidden">
   <div class="row">
     <div class="offset2 span8">
       <div class="">
-        <h2 class="center">"Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction." - Albert Einstein</h2>
+        <!--  <h3 class="center">"Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction." - Albert Einstein</h3>-->
+        <h3 class="center">Who am I?</h3>
+
       </div>
     </div>
   </div>
@@ -55,32 +58,19 @@
       <p class="">Hi there!  I am a student at the University of Waterloo studying System Design Engineering.  As an engineering student, I am excited to be learning a diverse variety of skills, from software development to solution architecture.  My ultimate goal is to be developing solutions for problems that stretch beyond the scope of a traditional engineer and to help make the world a better place.  I want to work with issues such as poverty, food security and public healthcare - but with a systematic and technical perspective. I love to meet new people and explore new things, so feel free to <a href="mailto:chris.ngan24@gmail.com">get in touch!</a> 
     </div> 
   </div>
-<!--
+  <hr/>
+  <!--
   <div class="row">
-    <div class="span12"><hr></div>
-  </div>
-  <?php include('home/skills.php'); ?>
-  <div class="row">
-    <div class="span12">
-      <div class="center">      
-        <h2>Education</h2>
-        <p>University of Waterloo</p>
-        <p>System Design Engineering</p>
-        <p>Class of 2016</p>
-      </div> 
+    <div class="offset2 span8">
+      <h3 class="center">See my <a href="pdfs/resume.pdf">r&#233sum&#233</a></h3>
     </div>
-  </div>
-  <div class="row">
-    <div class="span12"><hr></div>
-  </div>
-  <?php include('home/work.php'); ?>
--->
+  </div>-->
 </div>
 
     <div id="portfolio_content" class="content hidden">
   <div class="row-fluid">
     <div class="offset2 span8">
-      <h2 class="center">When design is motivated by the art of creation itself, it allows for intelligence to thrive and innovation to breathe.</h2>
+      <h3 class="center">What have I worked on?</h3>
     </div>
   </div>
   <hr/>
@@ -214,15 +204,29 @@
   </div>
 </div>
 
+    <div id="blog_content" class="content hidden">
+  <div class="row-fluid">
+    <div class="offset2 span8">
+      <h3 class="center">I believe it's important to channel passion into words so that words will one day lead to action. I hope to write thoughts on my streams of passion, whether it be technology, food or things of even greater importance. Welcome to my canvas of ideas. </h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row-fluid">
+    <ul class="thumbnails">
+      
+    </ul>
+  </div>
+</div>
+
   </div>
   <footer class="footer">
   <div class="container">
     <div class="row-fluid">
       <div class="span12">
-        <a target="_blank" href="https://github.com/chrisngan24" ><img  class="img-link" src="images/icons/github.png"></img></a>
-        <a target="_blank" href="http://www.linkedin.com/pub/christopher-ngan/52/211/725" ><img class="img-link" src="images/icons/linkedin.png"></img></a>
-        <a target="_blank" href="https://twitter.com/chrisngan1" ><img class="img-link" src="images/icons/twitter.png"></img></a>
-        <a target="_blank" href="http://instagram.com/nganman/" ><img class="img-link" src="images/icons/instagram.png"></img></a>
+        <a target="_blank" href="https://github.com/chrisngan24" ><img  class="img-link" src="/images/icons/github.png"></img></a>
+        <a target="_blank" href="http://www.linkedin.com/pub/christopher-ngan/52/211/725" ><img class="img-link" src="/images/icons/linkedin.png"></img></a>
+        <a target="_blank" href="https://twitter.com/chrisngan1" ><img class="img-link" src="/images/icons/twitter.png"></img></a>
+        <a target="_blank" href="http://instagram.com/nganman/" ><img class="img-link" src="/images/icons/instagram.png"></img></a>
       </div>
     </div>
     <br/>
@@ -235,11 +239,10 @@
 </footer>
 
 </div>
+
+<script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
  
-
-
-    <script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
